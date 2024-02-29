@@ -6,7 +6,7 @@ const path = require('path');
 
 dotenv.config();
 
-const cardRoutes = require('./server/routes/routes'); 
+const cardRoutes = require('./routes/routes'); 
 
 const allowedOrigins = ['http://localhost:3000', 'https://card-giving.vercel.app'];
 
